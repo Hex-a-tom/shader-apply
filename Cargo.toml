@@ -1,0 +1,16 @@
+[package]
+name = "shader-apply"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+bytemuck = "1.16.0"
+clap = { version = "4.5.4", features = ["derive"] }
+flume = "0.11.0"
+image = "0.25.1"
+png = "0.17.13"
+pollster = "0.3.0"
+rustc-hash = "1.1.0"
+thiserror = "1.0.61"
+wgpu = { version = "0.20.0", features = ["glsl"] }
