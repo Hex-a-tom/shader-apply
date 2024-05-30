@@ -13,7 +13,7 @@ var color: texture_2d<f32>;
 @group(0) @binding(2)
 var colSampler: sampler;
 
-// uv is mapped as x horizontal any y vertical with (0.0, 0.0) as top left and
+// uv is mapped as x horizontal and y vertical with (0.0, 0.0) as top left and
 // (1.0, 1.0) as bottom right respectively
 @fragment
 fn main(@location(0)uv: vec2<f32>) -> @location(0) vec4<f32> {
